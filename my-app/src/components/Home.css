@@ -1,0 +1,20 @@
+.home {
+  padding: 20px;
+}
+
+.greeting {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.movie-poster {
+  aspect-ratio: 2/3;
+  background-color: #ddd; /* Couleur de fond temporaire */
+  border-radius: 10px;
+}
