@@ -1,20 +1,26 @@
 .home {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .greeting {
   text-align: left;
   margin-bottom: 20px;
+  width: 66.67%; /* 2/3 de la largeur */
 }
 
 .movie-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  width: 66.67%; /* 2/3 de la largeur */
+  margin: 0 auto; /* Centre la grille horizontalement */
 }
 
 .movie-poster {
   aspect-ratio: 2/3;
-  background-color: #ddd; /* Couleur de fond temporaire */
+  background-color: #ddd;
   border-radius: 10px;
 }

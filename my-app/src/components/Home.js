@@ -6,7 +6,7 @@ function Home() {
 
     return (
         <div className="home">
-            <h1 className="greeting">Hello, {username}</h1>
+            <h1 className="greeting">{username}, wanna watch something ?</h1>
             <div className="movie-grid">
                 {[...Array(15)].map((_, index) => (
                     <div key={index} className="movie-poster"></div>
