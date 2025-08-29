@@ -17,13 +17,13 @@ function App() {
               <Link to="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <Link to="/watchlist" className="nav-link">Watchlist</Link>
+              <Link to="/Watchlist" className="nav-link">Watchlist</Link>
             </li>
             <li className="nav-item">
-              <Link to="/forlater" className="nav-link">For Later</Link>
+              <Link to="/ForLater" className="nav-link">For Later</Link>
             </li>
             <li className="nav-item">
-              <Link to="/profile" className="nav-link">Profile</Link>
+              <Link to="/Profile" className="nav-link">Profile</Link>
             </li>
           </ul>
         </div>
@@ -32,9 +32,9 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/watchlist" element={<Watchlist />} />
-          <Route path="/forlater" element={<ForLater />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/Watchlist" element={<Watchlist />} />
+          <Route path="/ForLater" element={<ForLater />} />
+          <Route path="/Profile" element={<Profile />} />
         </Routes>
       </div>
     </div>
