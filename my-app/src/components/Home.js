@@ -2,13 +2,11 @@ import React from 'react';
 import './Home.css';
 
 function Home() {
-    const username = 'User';
-
     return (
         <div className="home">
-            <h1 className="greeting">{username}, wanna watch something ?</h1>
+            <h1 className="greeting">Wanna watch something ?</h1>
             <div className="movie-grid">
-                {[...Array(15)].map((_, index) => (
+                {[...Array(25)].map((_, index) => (
                     <div key={index} className="movie-poster"></div>
                 ))}
             </div>
